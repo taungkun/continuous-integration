@@ -48,7 +48,7 @@ endstep0-->
   Encourage users to open new tabs for steps!
 -->
 
-<details id=1 open>
+<details id=1>
 <summary><h2>Step 1: Add a test workflow</h2></summary>
 
 _Welcome to "GitHub Actions: Continuous Integration"! :wave:_
@@ -125,9 +125,7 @@ If the checks don't appear or if the checks are stuck in progress, there's a few
 ### :keyboard: Activity: Fix the test
 
 1. Update the code in the `ci` branch to get the test to pass. You need to look something like this:
-   ```markdown
-   _underscore_
-   ```
+
 1. **Commit changes**.
 1. Wait about 20 seconds then refresh this page for the next step.
 
@@ -181,7 +179,7 @@ Similar to the upload action to send artifacts to the storage, you can use anoth
   Define terms and link to docs.github.com.
 -->
 
-<details id=4>
+<details id=4 open>
 <summary><h2>Step 4: Add branch protections</h2></summary>
 
 _Great job uploading test reports! :partying_face:_
